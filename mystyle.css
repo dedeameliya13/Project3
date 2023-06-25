@@ -1,0 +1,70 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: lightblue;
+	font-family: sans-serif;
+}
+
+header, section#profil, section#activities {
+	width: 800px;
+	margin: auto;
+	padding: 15px;
+	border-bottom: 2px solid green;
+}
+
+section#profil h1, section#activities h1 {
+	text-align: center;
+	font-size: 32px;
+	background-color: lightgray;
+	padding: 7px;
+}
+
+section#profil h1, section#activities h1{
+	margin-bottom: 20px;
+	
+}
+
+#profil-content{
+	width: 700px;
+	margin: auto;
+}
+
+#profil-content img{
+	width: 100px;
+	float: left;
+	margin-right: 20px;
+}
+
+#profil-content #deskripsi-profil{
+	width: 500px;
+	float: left;
+}
+
+#profil-content #deskripsi-profil p {
+	text-align: justify;
+	
+}
+
+.item-activity {
+	padding: 10px;
+	
+}
+
+.item-activity img, .item-activity p {
+	width: 300px;
+	display: block;
+	margin: auto;
+}
+
+.item-activity p {
+	text-align: left;
+	margin-top: 10px;
+	margin-bottom: 25px;
+	
+}
+
+header, section#profil, section#activities {
+	background-color: white;
+}
